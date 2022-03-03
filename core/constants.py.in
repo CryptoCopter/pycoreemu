@@ -1,0 +1,5 @@
+from pathlib import Path
+
+COREDPY_VERSION: str = "@PACKAGE_VERSION@"
+CORE_CONF_DIR: Path = Path("@CORE_CONF_DIR@")
+CORE_DATA_DIR: Path = Path("@CORE_DATA_DIR@")
